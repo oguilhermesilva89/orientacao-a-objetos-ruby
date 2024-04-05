@@ -18,6 +18,6 @@ end
 cofre = Cofre.new
 cofre.gerar_senha
 
-cofre.mostrar_senha
+cofre.mostrar_senha #variável de instância - tem acesso em qualquer lugar
 
-cofre.mostrar_hora
+cofre.mostrar_hora #variável local - só tem acesso onde ela foi criada
